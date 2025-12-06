@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+. ~/Repositories/budget-maker/venv/bin/activate
+python3 ~/Repositories/budget-maker/main.py "$@"
+deactivate
